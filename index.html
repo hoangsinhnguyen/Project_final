@@ -30,15 +30,15 @@
         <!--header-->
         <header class="header container">
             <!--logo-->
-            <div class="header-top-bar">
-                <div class="logo">
+            <div class="header-top-bar d-flex flex-wrap justify-content-around align-items-center">
+                <div class="logo col-12 col-sm-6 col-md-3 col-lg-3">
                     <span class="logo-title-blue">Review</span><span class="logo-title-green">Book</span>
                 </div>
-                <div class="search">
+                <div class="search col-12 col-sm-6 col-md-9 col-lg-6">
                     <input class="search-text form-control" type="search" placeholder="Find the book you are looking for" aria-label="Search">
                     <i class="search-icon fa-solid fa-magnifying-glass"></i>
                 </div> 
-                <div class="info">
+                <div class="info col-12 col-sm-12 col-md-3 col-lg-3">
                     <i class="info-heart fa-regular fa-heart"></i>
                     <i class="info-user fa-solid fa-user"></i>
                     <i class="info-lang fa-solid fa-earth-americas"></i>                                     
@@ -74,7 +74,7 @@
                     class="img-fluid"
                     alt=""/>
                     <div class="banner-img-content d-flex flex-column justify-content-between">
-                        <div class="banner-img-content__primary col-6 col-sm-6 col-md-12 col-lg-12">
+                        <div class="banner-img-content__primary col-12 col-sm-12 col-md-12 col-lg-12">
                             <p class="first">Book is a</p>
                             <p class="last">window to the world</p>
                         </div>
@@ -89,157 +89,189 @@
             </section>
             <!--Popular now-->
             <section class="popular container">
-                <div class="popular-title">
+                <div class="popular-title ">
                     <h1 class="item">
                         Popular now
                     </h1>
                     <p class="view">View all <i class="icon fa-solid text-secondary fa-right-long fw-bold"></i></p>
                 </div>
-                <div class="popular-product d-flex flex-wrap justify-content-between mt-2">
-                    <div class="popular-product-card card col-12 col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
-                        <div class="text-center">
-                            <img src="./assets/scss/images/uploads/products/popular_1.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
-                            <i class="icon-new fa-solid fa-bookmark text-danger fs-4"></i>
-                        </div>
-                        
-                        <div class="card-body text-center">
-                          <h5 class="card-title fs-3 text-break">Selena</h5>   
-                          <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
-                          <p class="card-text text-secondary fs-5 mt-0 mb-0">Tere Liye</p>
-                          <div>
-                            <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/andre.png" class="card-img-top rounded-circle w-25" alt="" >Andre Syak
-                                <span class="text-secondary text-break fs-6">*1 week ago</span>
-                            </a>                            
-                          </div>
-                        </div>
-                    </div>
-                    <div class="popular-product-card card col-12 col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
-                        <div class="text-center">
-                            <img src="./assets/scss/images/uploads/products/popular_2.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
-                            <i class="icon-new fa-solid fa-bookmark text-danger fs-4"></i>                            
-                        </div>
-                        
-                        <div class="card-body text-center">
-                          <h5 class="card-title fs-3 text-break">How To Master Your Habits</h5>   
-                          <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i></p>                       
-                          <p class="card-text text-secondary fs-5 mt-0 mb-0">Felix Y Siauw</p>
-                          <div>
-                            <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/lucas.png" class="card-img-top rounded-circle w-25" alt="" >John Lucas
-                                <span class="text-secondary text-break fs-6">*05 day ago</span>
-                            </a>                            
-                          </div>
+                <div class="popular-product d-flex flex-wrap justify-content-center mt-2">
+                    <div class="">
+                        <div class="w-100 p-1 col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="popular-product-card card" style="width: 17rem; height: 560px;">                       
+                                <div class="text-center">
+                                    <img src="./assets/scss/images/uploads/products/popular_1.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
+                                    <i class="icon-new fa-solid fa-bookmark text-danger fs-4"></i>
+                                </div>                        
+                                <div class="card-body text-center">
+                                  <h5 class="card-title fs-3 text-break">Selena</h5>   
+                                  <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
+                                  <p class="card-text text-secondary fs-5 mt-0 mb-0">Tere Liye</p>
+                                  <div>
+                                    <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/andre.png" class="card-img-top rounded-circle w-25" alt="" >Andre Syak
+                                        <span class="text-secondary text-break fs-6">*1 week ago</span>
+                                    </a>                            
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="popular-product-card card col-12 col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
-                        <div class="text-center">
-                            <img src="./assets/scss/images/uploads/products/popular_3.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
-                            <i class="icon-new fa-solid fa-bookmark text-danger fs-4"></i>
-                        </div>                        
-                        <div class="card-body text-center">
-                          <h5 class="card-title fs-3 text-break">Bintang</h5>   
-                          <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
-                          <p class="card-text text-secondary fs-5 mt-0 mb-0">Tere Liye</p>
-                          <div>
-                            <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/ade.png" class="card-img-top rounded-circle w-25" alt="" >Bakark
-                                <span class="text-secondary text-break fs-6">*6 month ago</span>
-                            </a>                            
-                          </div>
+                    <div class="">
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-3 w-100 p-1">
+                        <div class="popular-product-card card" style="width: 17rem; height: 560px;">
+                            <div class="text-center">
+                                <img src="./assets/scss/images/uploads/products/popular_2.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
+                                <i class="icon-new fa-solid fa-bookmark text-danger fs-4"></i>                            
+                            </div>
+                            
+                            <div class="card-body text-center">
+                              <h5 class="card-title fs-3 text-break">How To Master Your Habits</h5>   
+                              <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i></p>                       
+                              <p class="card-text text-secondary fs-5 mt-0 mb-0">Felix Y Siauw</p>
+                              <div>
+                                <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/lucas.png" class="card-img-top rounded-circle w-25" alt="" >John Lucas
+                                    <span class="text-secondary text-break fs-6">*05 day ago</span>
+                                </a>                            
+                              </div>
+                            </div>
+                        </div>
+                       </div>     
+                    </div>
+                    <div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 w-100 p-1">
+                            <div class="popular-product-card card" style="width: 17rem; height: 560px;">
+                                <div class="text-center">
+                                    <img src="./assets/scss/images/uploads/products/popular_3.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
+                                    <i class="icon-new fa-solid fa-bookmark text-danger fs-4"></i>
+                                </div>                        
+                                <div class="card-body text-center">
+                                  <h5 class="card-title fs-3 text-break">Bintang</h5>   
+                                  <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
+                                  <p class="card-text text-secondary fs-5 mt-0 mb-0">Tere Liye</p>
+                                  <div>
+                                    <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/ade.png" class="card-img-top rounded-circle w-25" alt="" >Bakark
+                                        <span class="text-secondary text-break fs-6">*6 month ago</span>
+                                    </a>                            
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="popular-product-card card col-12 col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
-                        <div class="text-center">
-                            <img src="./assets/scss/images/uploads/products/popular_4.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
-                            <i class="icon-new fa-solid fa-bookmark text-danger fs-4"></i>
-                        </div>
-                        
-                        <div class="card-body text-center">
-                          <h5 class="card-title fs-3 text-break">Start With Why </h5>   
-                          <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
-                          <p class="card-text text-secondary fs-5 mt-0 mb-0">Felix Y Siauw</p>
-                          <div>
-                            <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/ryan.png" class="card-img-top rounded-circle w-25" alt="" >Rayan Dewa
-                                <span class="text-secondary text-break fs-6">*1 week ago</span>
-                            </a>                            
-                          </div>
+                    <div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 w-100 p-1">
+                            <div class="popular-product-card card" style="width: 17rem; height: 560px;">
+                                <div class="text-center">
+                                    <img src="./assets/scss/images/uploads/products/popular_4.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
+                                    <i class="icon-new fa-solid fa-bookmark text-danger fs-4"></i>
+                                </div>
+                                
+                                <div class="card-body text-center">
+                                  <h5 class="card-title fs-3 text-break">Start With Why </h5>   
+                                  <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
+                                  <p class="card-text text-secondary fs-5 mt-0 mb-0">Felix Y Siauw</p>
+                                  <div>
+                                    <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/ryan.png" class="card-img-top rounded-circle w-25" alt="" >Rayan Dewa
+                                        <span class="text-secondary text-break fs-6">*1 week ago</span>
+                                    </a>                            
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
             </section>
             <!--Latest book-->
             <section class="latest container">
-                <div class="latest-title">
+                <div class="latest-title ">
                     <h1 class="item">
                         Latest Book
                     </h1>
                     <p class="view">View all <i class="icon fa-solid text-secondary fa-right-long fw-bold"></i></p>
                 </div>
-                <div class="latest-product d-flex flex-wrap justify-content-between mt-2">
-                    <div class="latest-product-card card col-12 col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
-                        <div class="text-center">
-                            <img src="./assets/scss/images/uploads/products/latest_1.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
-                            <i class="icon-new fa-solid fa-bahai text-primary fs-4"></i>
-                            
+                <div class="latest-product d-flex flex-wrap justify-content-center mt-2">
+                    <div class="">
+                        <div class="w-100 p-1 col-11 col-sm-11 col-md-6 col-lg-3">
+                            <div class="latest-product-card card" style="width: 17rem; height: 580px;">
+                                <div class="text-center">
+                                    <img src="./assets/scss/images/uploads/products/latest_1.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
+                                    <i class="icon-new fa-solid fa-bahai text-primary fs-4"></i>                                    
+                                </div>                        
+                                <div class="card-body text-center">
+                                  <h5 class="card-title fs-3 text-break">The Compound Effect</h5>   
+                                  <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
+                                  <p class="card-text text-secondary fs-5 mt-0 mb-0">Tere Liye</p>
+                                  <div>
+                                    <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/andre.png" class="card-img-top rounded-circle w-25" alt="" >Andre Syak
+                                        <span class="text-secondary text-break fs-6">*1 week ago</span>
+                                    </a>                            
+                                  </div>
+                                </div>
+                            </div>
                         </div>                        
-                        <div class="card-body text-center">
-                          <h5 class="card-title fs-3 text-break">The Compound Effect</h5>   
-                          <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
-                          <p class="card-text text-secondary fs-5 mt-0 mb-0">Tere Liye</p>
-                          <div>
-                            <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/andre.png" class="card-img-top rounded-circle w-25" alt="" >Andre Syak
-                                <span class="text-secondary text-break fs-6">*1 week ago</span>
-                            </a>                            
-                          </div>
+                    </div>
+                    <div class="">
+                        <div class="w-100 p-1 col-11 col-sm-11 col-md-6 col-lg-3">
+                            <div class="latest-product-card card" style="width: 17rem; height: 580px;">
+                                <div class="text-center">
+                                    <img src="./assets/scss/images/uploads/products/latest_2.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
+                                    <i class="icon-new fa-solid fa-bahai text-primary fs-4"></i>                           
+                                </div>                        
+                                <div class="card-body text-center">
+                                  <h5 class="card-title fs-3 text-break">Build A Story brand</h5>   
+                                  <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i></p>                       
+                                  <p class="card-text text-secondary fs-5 mt-0 mb-0">Felix Y Siauw</p>
+                                  <div>
+                                    <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/lucas.png" class="card-img-top rounded-circle w-25" alt="" >John Lucas
+                                        <span class="text-secondary text-break fs-6">*05 day ago</span>
+                                    </a>                            
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="latest-product-card card col-12 col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
-                        <div class="text-center">
-                            <img src="./assets/scss/images/uploads/products/latest_2.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
-                            <i class="icon-new fa-solid fa-bahai text-primary fs-4"></i>                           
+                    <div class="">
+                        <div class="w-100 p-1 col-11 col-sm-11 col-md-6 col-lg-3">
+                            <div class="latest-product-card card" style="width: 17rem; height: 580px;">
+                                <div class="text-center">
+                                    <img src="./assets/scss/images/uploads/products/latest_3.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
+                                    <i class="icon-new fa-solid fa-bahai text-primary fs-4"></i>
+                                </div>                        
+                                <div class="card-body text-center">
+                                  <h5 class="card-title fs-3 text-break">Crushing</h5>   
+                                  <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
+                                  <p class="card-text text-secondary fs-5 mt-0 mb-0">Tere Liye</p>
+                                  <div>
+                                    <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/ade.png" class="card-img-top rounded-circle w-25" alt="" >Bakark
+                                        <span class="text-secondary text-break fs-6">*6 month ago</span>
+                                    </a>                            
+                                  </div>
+                                </div>
+                            </div>
                         </div>                        
-                        <div class="card-body text-center">
-                          <h5 class="card-title fs-3 text-break">Build A Story brand</h5>   
-                          <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i></p>                       
-                          <p class="card-text text-secondary fs-5 mt-0 mb-0">Felix Y Siauw</p>
-                          <div>
-                            <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/lucas.png" class="card-img-top rounded-circle w-25" alt="" >John Lucas
-                                <span class="text-secondary text-break fs-6">*05 day ago</span>
-                            </a>                            
-                          </div>
+                    </div>
+                    <div class="">
+                        <div class="w-100 p-1 col-11 col-sm-11 col-md-6 col-lg-3">
+                            <div class="latest-product-card card" style="width: 17rem; height: 580px;">
+                                <div class="text-center">
+                                    <img src="./assets/scss/images/uploads/products/latest_4.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
+                                    <i class="icon-new fa-solid fa-bahai text-primary fs-4"></i>
+                                </div>
+                                
+                                <div class="card-body text-center">
+                                  <h5 class="card-title fs-3 text-break">Atomic Habits </h5>   
+                                  <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
+                                  <p class="card-text text-secondary fs-5 mt-0 mb-0">Felix Y Siauw</p>
+                                  <div>
+                                    <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/ryan.png" class="card-img-top rounded-circle w-25" alt="" >Rayan Dewa
+                                        <span class="text-secondary text-break fs-6">*1 week ago</span>
+                                    </a>                            
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="latest-product-card card col-12 col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
-                        <div class="text-center">
-                            <img src="./assets/scss/images/uploads/products/latest_3.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
-                            <i class="icon-new fa-solid fa-bahai text-primary fs-4"></i>
-                        </div>                        
-                        <div class="card-body text-center">
-                          <h5 class="card-title fs-3 text-break">Crushing</h5>   
-                          <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
-                          <p class="card-text text-secondary fs-5 mt-0 mb-0">Tere Liye</p>
-                          <div>
-                            <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/ade.png" class="card-img-top rounded-circle w-25" alt="" >Bakark
-                                <span class="text-secondary text-break fs-6">*6 month ago</span>
-                            </a>                            
-                          </div>
-                        </div>
-                    </div>
-                    <div class="latest-product-card card col-12 col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
-                        <div class="text-center">
-                            <img src="./assets/scss/images/uploads/products/latest_4.png" class="card-img-top rounded w-75 img-thumbnail mt-3" alt="popular_1" >
-                            <i class="icon-new fa-solid fa-bahai text-primary fs-4"></i>
-                        </div>
-                        
-                        <div class="card-body text-center">
-                          <h5 class="card-title fs-3 text-break">Atomic Habits </h5>   
-                          <p class="mt-0 mb-0"><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-danger fa-solid fa-star"></i><i class="text-secondary fa-solid fa-star"></i></p>                       
-                          <p class="card-text text-secondary fs-5 mt-0 mb-0">Felix Y Siauw</p>
-                          <div>
-                            <a href="#" class="card-link text-decoration-none"><img src="./assets/scss/images/uploads/products/ryan.png" class="card-img-top rounded-circle w-25" alt="" >Rayan Dewa
-                                <span class="text-secondary text-break fs-6">*1 week ago</span>
-                            </a>                            
-                          </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </section>
             <!--recomment book-->
@@ -260,54 +292,63 @@
             </section>
             <!--author-->
             <section class="container">
-                <div class="author d-flex flex-wrap justify-content-around">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="author-eka">
-                            <div class="author-eka-title">
-                                <h4 class="fw-bold">Eka Adilak</h4>
-                                <p class="text-secondary fs-6">I feel very helpful with on the book ptovided, so I do my job easily anh happily</p>
-                            </div>
-                            <div class="author-eka-img">
-                                <img src="./assets/scss/images/uploads/products/author_keka.png" class="img-keka img-fluid" alt=""/>
-                            </div>
-                            <div class="author-eka-quote">
-                                <i class="fa-sharp fa-solid fa-quote-right"></i>
-                            </div>
-                        </div>                        
+                <div class="author d-flex flex-wrap justify-content-center align-content-center">
+                    <div class="col-11 col-sm-11 col-md-6 col-lg-4">
+                        <div class="w-100 p-1">
+                            <div class="author-eka">
+                                <div class="author-eka-title">
+                                    <h4 class="fw-bold">Eka Adilak</h4>
+                                    <p class="text-secondary fs-6">I feel very helpful with on the book ptovided, so I do my job easily anh happily</p>
+                                </div>
+                                <div class="author-eka-img">
+                                    <img src="./assets/scss/images/uploads/products/author_keka.png" class="img-keka img-fluid" alt=""/>
+                                </div>
+                                <div class="author-eka-quote">
+                                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>        
+                        </div>
+                                        
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="author-hazar">
-                            <div class="author-hazar-title">
-                                <h4 class="fw-bold">Hazar Hamzah</h4>
-                                <p class="text-secondary fs-6">Thanks you. Many good books to accompany everyday</p>
-                            </div>
-                            <div class="author-hazar-img">
-                                <img src="./assets/scss/images/uploads/products/author_haza.png" class="img-hazar img-fluid" alt=""/>
-                            </div>
-                            <div class="author-hazar-quote">
-                                <i class="fa-sharp fa-solid fa-quote-right"></i>
-                            </div>
-                        </div>                        
+                    <div class="col-11 col-sm-11 col-md-6 col-lg-4">
+                        <div class="w-100 p-1">
+                            <div class="author-hazar">
+                                <div class="author-hazar-title">
+                                    <h4 class="fw-bold">Hazar Hamzah</h4>
+                                    <p class="text-secondary fs-6">Thanks you. Many good books to accompany everyday</p>
+                                </div>
+                                <div class="author-hazar-img">
+                                    <img src="./assets/scss/images/uploads/products/author_haza.png" class="img-hazar img-fluid" alt=""/>
+                                </div>
+                                <div class="author-hazar-quote">
+                                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>   
+                        </div>
+                                             
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="author-khoe">
-                            <div class="author-khoe-title">
-                                <h4 class="fw-bold">Khoerunnisa</h4>
-                                <p class="text-secondary fs-6">Thanks you team, many recommended book for me to read</p>
-                            </div>
-                            <div class="author-khoe-img">
-                                <img src="./assets/scss/images/uploads/products/author_khoe.png" class="img-khoe img-fluid" alt=""/>
-                            </div>
-                            <div class="author-khoe-quote">
-                                <i class="fa-sharp fa-solid fa-quote-right"></i>
-                            </div>
-                        </div>                        
+                    <div class="col-11 col-sm-11 col-md-6 col-lg-4">
+                        <div class="w-100 p-1">
+                            <div class="author-khoe">
+                                <div class="author-khoe-title">
+                                    <h4 class="fw-bold">Khoerunnisa</h4>
+                                    <p class="text-secondary fs-6">Thanks you team, many recommended book for me to read</p>
+                                </div>
+                                <div class="author-khoe-img">
+                                    <img src="./assets/scss/images/uploads/products/author_khoe.png" class="img-khoe img-fluid" alt=""/>
+                                </div>
+                                <div class="author-khoe-quote">
+                                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>  
+                        </div>
+                                              
                     </div>                  
                 
             </section>
         </main>
         <!--footer-->
-        <footer class="container pt-5 h-100">
+        <footer class="container pt-5">
             <div class="footer d-flex flex-wrap justify-content-between">
                 <div class="footer-logo d-flex flex-column justify-content-between col-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="footer-logo__icon">
